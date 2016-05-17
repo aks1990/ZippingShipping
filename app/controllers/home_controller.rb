@@ -94,9 +94,9 @@ class HomeController < ShopifyApp::AuthenticatedController
       # End here=========================================================
 
       # Add Snippet======================================================
-      @asset_edit = ShopifyAPI::Asset.find('templates/product.liquid')
-      @asset_edit.value += "<br><p>{% include 'ZipCode' %}</p>"
-      @asset_edit.save
+      # @asset_edit = ShopifyAPI::Asset.find('templates/product.liquid')
+      # @asset_edit.value += "<br><p>{% include 'ZipCode' %}</p>"
+      # @asset_edit.save
       # End here=========================================================
 
       # Add Loader Image=================================================
@@ -182,9 +182,9 @@ class HomeController < ShopifyApp::AuthenticatedController
       # End here=========================================================
 
       # Add Snippet======================================================
-      @asset_edit = ShopifyAPI::Asset.find('templates/product.liquid')
-      @asset_edit.value += "<br><p>{% include 'ZipCode' %}</p>"
-      @asset_edit.save
+      # @asset_edit = ShopifyAPI::Asset.find('templates/product.liquid')
+      # @asset_edit.value += "<br><p>{% include 'ZipCode' %}</p>"
+      # @asset_edit.save
       # End here=========================================================
 
       # Add Loader Image=================================================
