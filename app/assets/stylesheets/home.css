@@ -1,0 +1,11 @@
+.navbar.navbar-inverse {
+    border-radius: 0;
+}
+.minicolors-theme-default .minicolors-input {
+    height: 28px !important;
+}
+.css_modified_content {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
