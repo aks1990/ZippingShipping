@@ -7,7 +7,7 @@ class HomeController < ShopifyApp::AuthenticatedController
     @compare_shop_id = Home.find_by_shopid(curr_store_id)
     if @compare_shop_id.nil?
     
-      zipcontent = Zipcontent.find_by_id(10)
+      zipcontent = Zipcontent.find_by_id(1)
 
       Home.create(:heading => zipcontent.heading,
                 :shopid => curr_store_id,
